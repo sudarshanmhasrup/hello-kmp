@@ -1,4 +1,6 @@
 [versions]
+# Library and plugin version
+kotlin = "2.3.0"
 
 # library module's configuration information
 library-group = "io.github.sudarshanmhasrup.hellokmp"
@@ -7,3 +9,4 @@ library-version = "1.0.0"
 [libraries]
 
 [plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
