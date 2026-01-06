@@ -12,6 +12,7 @@ kotlin {
 
     // Common compiler arguments
     compilerOptions {
+        freeCompilerArgs.add("-Xsuppress-warning=UNUSED")
         freeCompilerArgs.add("-Xsuppress-warning=RedundantVisibilityModifier")
     }
 }
