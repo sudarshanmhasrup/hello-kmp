@@ -9,4 +9,9 @@ kotlin {
     iosX64()
     iosArm64()
     iosSimulatorArm64()
+
+    // Common compiler arguments
+    compilerOptions {
+        freeCompilerArgs.add("-Xsuppress-warning=RedundantVisibilityModifier")
+    }
 }
