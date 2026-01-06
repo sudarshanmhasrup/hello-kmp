@@ -1,5 +1,9 @@
 [versions]
 
+# library module's configuration information
+library-group = "io.github.sudarshanmhasrup.hellokmp"
+library-version = "1.0.0"
+
 [libraries]
 
 [plugins]
