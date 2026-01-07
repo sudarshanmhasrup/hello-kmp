@@ -2,9 +2,8 @@ name: "Publish Library to Maven Central"
 
 # Trigger
 on:
-    push:
-        branches:
-            - main
+    release:
+        types: [ released, prereleased ]
 
 # Jobs
 jobs:
