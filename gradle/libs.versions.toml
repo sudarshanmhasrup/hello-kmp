@@ -15,6 +15,7 @@ library-androidLibrary-compileSdk = "36"
 library-androidLibrary-minSdk = "21"
 
 [libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
