@@ -7,6 +7,11 @@ agp = "8.12.1"
 library-group = "io.github.sudarshanmhasrup.hellokmp"
 library-version = "1.0.0"
 
+# library module's android library package information
+library-androidLibrary-namespace = "io.github.sudarshanmhasrup.hellokmp"
+library-androidLibrary-compileSdk = "36"
+library-androidLibrary-minSdk = "21"
+
 [libraries]
 
 [plugins]
