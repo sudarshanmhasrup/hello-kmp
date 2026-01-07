@@ -3,3 +3,6 @@ plugins {
     alias(libs.plugins.android.kotlin.multiplatform.library) apply false
     alias(libs.plugins.maven.publish) apply false
 }
+
+// Custom build directory
+layout.buildDirectory.set(file("$rootDir/.build/project"))
