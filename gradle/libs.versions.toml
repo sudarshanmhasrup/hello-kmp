@@ -1,6 +1,7 @@
 [versions]
 # Library and plugin version
 kotlin = "2.3.0"
+agp = "8.12.1"
 
 # library module's configuration information
 library-group = "io.github.sudarshanmhasrup.hellokmp"
@@ -10,3 +11,4 @@ library-version = "1.0.0"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
