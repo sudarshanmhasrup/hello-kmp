@@ -6,6 +6,7 @@ mavenPublish = "0.35.0"
 
 # library module's configuration information
 library-group = "io.github.sudarshanmhasrup.hellokmp"
+library-artifactId = "hello-kmp"
 library-version = "1.0.0"
 
 # library module's android library package information
