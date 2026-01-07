@@ -30,6 +30,12 @@ kotlin {
         browser()
         binaries.executable()
     }
+
+    sourceSets {
+        commonTest.dependencies {
+            implementation(libs.kotlin.test)
+        }
+    }
 }
 
 mavenPublishing {
