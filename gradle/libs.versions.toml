@@ -2,6 +2,7 @@
 # Library and plugin version
 kotlin = "2.3.0"
 agp = "8.13.2"
+mavenPublish = "0.34.0"
 
 # library module's configuration information
 library-group = "io.github.sudarshanmhasrup.hellokmp"
@@ -17,3 +18,4 @@ library-androidLibrary-minSdk = "21"
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
+maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
