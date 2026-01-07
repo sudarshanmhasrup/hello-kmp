@@ -2,7 +2,7 @@
 # Library and plugin version
 kotlin = "2.3.0"
 agp = "8.13.2"
-mavenPublish = "0.34.0"
+mavenPublish = "0.35.0"
 
 # library module's configuration information
 library-group = "io.github.sudarshanmhasrup.hellokmp"
