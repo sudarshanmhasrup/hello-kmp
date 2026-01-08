@@ -40,6 +40,12 @@ kotlin {
         browser()
         binaries.executable()
     }
+
+    sourceSets {
+        commonMain.dependencies {
+            implementation(projects.library)
+        }
+    }
 }
 
 // Custom build directory
