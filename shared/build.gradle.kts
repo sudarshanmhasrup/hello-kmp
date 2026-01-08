@@ -10,9 +10,9 @@ version = libs.versions.shared.version.get()
 
 kotlin {
     androidLibrary {
-        namespace = libs.versions.library.androidLibrary.namespace.get()
-        compileSdk = libs.versions.library.androidLibrary.compileSdk.get().toInt()
-        minSdk = libs.versions.library.androidLibrary.minSdk.get().toInt()
+        namespace = libs.versions.shared.androidLibrary.namespace.get()
+        compileSdk = libs.versions.shared.androidLibrary.compileSdk.get().toInt()
+        minSdk = libs.versions.shared.androidLibrary.minSdk.get().toInt()
 
         compilerOptions {
             jvmTarget = JvmTarget.JVM_11
