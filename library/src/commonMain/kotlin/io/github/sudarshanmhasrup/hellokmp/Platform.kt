@@ -9,4 +9,9 @@ public expect class Platform() {
      * Returns the name of the current platform.
      */
     public fun getPlatformName(): String
+    /**
+     * Returns the type of the current platform.
+     */
+    public fun getPlatformType(): PlatformType
+
 }
