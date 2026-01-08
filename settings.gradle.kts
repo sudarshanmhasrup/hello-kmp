@@ -1,4 +1,5 @@
 rootProject.name = "HelloKmp"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 @Suppress("UnstableApiUsage")
 pluginManagement {
