@@ -24,6 +24,7 @@ kotlin {
     sourceSets {
         val desktopMain by getting
         desktopMain.dependencies {
+            implementation(libs.bundles.compose.multiplatform)
             implementation(projects.shared)
             implementation(compose.desktop.currentOs)
         }
