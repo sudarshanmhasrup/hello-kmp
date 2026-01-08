@@ -3,6 +3,7 @@
 kotlin = "2.3.0"
 agp = "8.13.2"
 composeMultiplatform = "1.10.0-rc02"
+material3 = "1.9.0"
 mavenPublish = "0.35.0"
 
 # library module's configuration information
@@ -35,6 +36,7 @@ desktop-packageVersion = "1.0.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "material3" }
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
