@@ -29,6 +29,9 @@ desktop-group = "com.hellokmp.app"
 desktop-version = "1.0.0"
 desktop-mainClass = "com.hellokmp.app.MainKt"
 
+# desktop module's distribution information
+desktop-packageName = "HelloKMP"
+desktop-packageVersion = "1.0.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
