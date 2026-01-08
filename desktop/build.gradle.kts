@@ -6,6 +6,9 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
+group = libs.versions.desktop.group.get()
+version = libs.versions.desktop.version.get()
+
 kotlin {
     jvm("desktop") {
         compilerOptions {
@@ -15,6 +18,12 @@ kotlin {
 
     jvmToolchain {
         languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+compose.desktop {
+    application {
+        mainClass = libs.versions.desktop.mainClass.get()
     }
 }
 
