@@ -34,6 +34,8 @@ compose.desktop {
         mainClass = libs.versions.desktop.mainClass.get()
         nativeDistributions {
             targetFormats = setOf(TargetFormat.Msi, TargetFormat.Dmg, TargetFormat.Deb)
+            packageName = libs.versions.desktop.packageName.get()
+            version = libs.versions.desktop.packageVersion.get()
         }
     }
 }
