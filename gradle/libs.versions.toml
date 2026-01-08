@@ -24,6 +24,12 @@ shared-androidLibrary-namespace = "com.hellokmp.shared"
 shared-androidLibrary-compileSdk = "36"
 shared-androidLibrary-minSdk = "21"
 
+# desktop module's configuration information
+desktop-group = "com.hellokmp.app"
+desktop-version = "1.0.0"
+desktop-mainClass = "com.hellokmp.app.MainKt"
+
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
