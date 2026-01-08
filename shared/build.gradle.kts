@@ -44,8 +44,28 @@ kotlin {
     }
 
     sourceSets {
+        val desktopMain by getting
         commonMain.dependencies {
             implementation(projects.library)
+        }
+
+        val composeMain by creating {
+            dependsOn(commonMain.get())
+            dependencies {
+                implementation(libs.bundles.compose.multiplatform)
+            }
+        }
+
+        androidMain {
+            dependsOn(composeMain)
+        }
+
+        desktopMain.apply {
+            dependsOn(composeMain)
+        }
+
+        wasmJsMain {
+            dependsOn(composeMain)
         }
     }
 }
