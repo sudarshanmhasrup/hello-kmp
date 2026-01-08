@@ -7,4 +7,8 @@ public actual class Platform {
     public actual fun getPlatformName(): String {
         return UIDevice.currentDevice.systemName() + " " + UIDevice.currentDevice.systemVersion
     }
+
+    public actual fun getPlatformType(): PlatformType {
+        return PlatformType.Ios
+    }
 }

@@ -7,4 +7,8 @@ public actual class Platform {
     public actual fun getPlatformName(): String {
         return "Android ${Build.VERSION.SDK_INT}"
     }
+
+    public actual fun getPlatformType(): PlatformType {
+        return PlatformType.Android
+    }
 }

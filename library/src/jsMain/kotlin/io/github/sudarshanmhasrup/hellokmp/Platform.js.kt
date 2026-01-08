@@ -5,4 +5,8 @@ public actual class Platform {
     public actual fun getPlatformName(): String {
         return "Web with Kotlin/JS"
     }
+
+    public actual fun getPlatformType(): PlatformType {
+        return PlatformType.JS
+    }
 }

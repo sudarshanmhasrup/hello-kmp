@@ -5,4 +5,8 @@ public actual class Platform {
     public actual fun getPlatformName(): String {
         return "JVM ${System.getProperty("java.version")}"
     }
+
+    public actual fun getPlatformType(): PlatformType {
+        return PlatformType.Desktop
+    }
 }
