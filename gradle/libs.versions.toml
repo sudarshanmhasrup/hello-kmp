@@ -18,6 +18,11 @@ library-androidLibrary-minSdk = "21"
 shared-group = "com.hellokmp.shared"
 shared-version = "1.0.0"
 
+# shared module's android library package information
+shared-androidLibrary-namespace = "com.hellokmp.shared"
+shared-androidLibrary-compileSdk = "36"
+shared-androidLibrary-minSdk = "21"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
