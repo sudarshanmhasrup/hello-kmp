@@ -38,6 +38,9 @@ desktop-packageVersion = "1.0.0"
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "material3" }
 
+[bundles]
+compose-multiplatform = ["material3"]
+
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
