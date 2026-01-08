@@ -14,6 +14,10 @@ library-androidLibrary-namespace = "io.github.sudarshanmhasrup.hellokmp"
 library-androidLibrary-compileSdk = "36"
 library-androidLibrary-minSdk = "21"
 
+# shared module's configuration information
+shared-group = "com.hellokmp.shared"
+shared-version = "1.0.0"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
