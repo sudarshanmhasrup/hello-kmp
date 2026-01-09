@@ -37,7 +37,7 @@ dependencyResolutionManagement {
 
 include(":library")
 
-val sampleAppModules = setOf("shared", "android", "ios", "desktop", "web")
+val sampleAppModules = setOf("shared", "android", "ios", "desktop", "web-js")
 sampleAppModules.forEach { module ->
     include(":$module")
 }
