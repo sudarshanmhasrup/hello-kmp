@@ -5,5 +5,12 @@ plugins {
 group = libs.versions.webWasm.group.get()
 version = libs.versions.webWasm.version.get()
 
+kotlin {
+    wasmJs {
+        browser()
+        binaries.executable()
+    }
+}
+
 // Custom build directory
 layout.buildDirectory.set(file("$rootDir/.build/web-wasm"))
