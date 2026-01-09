@@ -19,6 +19,7 @@ kotlin {
     sourceSets {
         wasmJsMain.dependencies {
             implementation(libs.bundles.compose.multiplatform)
+            implementation(projects.shared)
         }
     }
 }
