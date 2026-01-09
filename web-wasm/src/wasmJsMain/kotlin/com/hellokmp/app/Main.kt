@@ -11,6 +11,9 @@ import kotlinx.browser.document
 fun main() {
     val app = document.getElementById(elementId = "app") ?: return
     ComposeViewport(viewportContainer = app) {
+        val loaderContainer = document.getElementById("loader-container")
+        loaderContainer?.remove()
+
         App(modifier = Modifier.backgroundModifier())
     }
 }
