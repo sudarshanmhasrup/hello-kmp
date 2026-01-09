@@ -34,6 +34,10 @@ desktop-mainClass = "com.hellokmp.app.MainKt"
 desktop-packageName = "HelloKMP"
 desktop-packageVersion = "1.0.0"
 
+# web-wasm module's configuration information
+webWasm-group = "com.hellokmp.app"
+webWasm-version = "1.0.0"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "material3" }
