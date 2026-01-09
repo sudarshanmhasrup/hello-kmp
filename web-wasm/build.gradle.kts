@@ -10,6 +10,11 @@ group = libs.versions.webWasm.group.get()
 version = libs.versions.webWasm.version.get()
 
 kotlin {
+    js {
+        browser()
+        binaries.executable()
+    }
+
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
         browser()
